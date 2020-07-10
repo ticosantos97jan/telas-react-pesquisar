@@ -1,5 +1,6 @@
 import React from 'react';
-import axios from 'axios';
+import React, { Component } from 'react'; //importando component do react
+import api from './api';//requisitando a api response
 import {useState,useEffect} from 'react';
 import { Jumbotron, Container } from 'reactstrap';
 import { Card, CardText, CardTitle, Button, Form, FormGroup, Label, Input } from 'reactstrap';
